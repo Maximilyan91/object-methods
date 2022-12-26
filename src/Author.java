@@ -18,7 +18,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Автор - " + surname + patronymic + name;
+        return "Автор - " + surname + " " + name + " " + patronymic;
     }
 
     public String getPatronymic() {
