@@ -9,20 +9,11 @@ public class Author {
         this.patronymic = patronymic;
     }
 
-    public String getSurname() {
-        return this.surname;
-    }
-    public String getName() {
-        return this.name;
-    }
 
     @Override
     public String toString() {
         return "Автор - " + surname + " " + name + " " + patronymic;
-    }
-
-    public String getPatronymic() {
-        return this.patronymic;
 
     }
+
 }

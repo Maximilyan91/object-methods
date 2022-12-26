@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         Book liberty = new Book( "Liberty", 1800);
         Book amphibianMan = new Book("Человек амфибия", 1961);
 
