@@ -8,7 +8,6 @@ public class Main {
         Author petrov = new Author("Петров", "Афанасий", "Валерьевич");
         Author belyaev = new Author("Беляев", "Александр", "Романович");
 
-
         System.out.println(liberty + " " + petrov);
         System.out.println(amphibianMan + " " + belyaev);
 

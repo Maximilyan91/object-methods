@@ -25,7 +25,6 @@ public class Author {
         return "Автор - " + surname + " " + name + " " + patronymic;
 
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;                                       // Сравниваем объект с самим собой
@@ -33,7 +32,6 @@ public class Author {
         Author author = (Author) o;
         return Objects.equals(name, author.name) && Objects.equals(surname, author.surname) && Objects.equals(patronymic, author.patronymic);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(name, surname, patronymic);

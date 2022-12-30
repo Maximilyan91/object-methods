@@ -30,7 +30,6 @@ public class Book {
         Book book = (Book) o;
         return year == book.year && Objects.equals(nameBook, book.nameBook);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(nameBook, year);
